@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Sensitive Credentials
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*.pem
+*.key
+
+# Large Datasets (ApacheJIT Zenodo downloads ~100MB+)
+data/apachejit/*.csv
+data/apachejit/*.zip
+data/apachejit/*.tar.gz
+data/apachejit/*.parquet
+data/synthetic/*.csv
+*.csv
+
+# ML Model Pickles & Serialized Artifacts
+*.joblib
+*.pkl
+*.pickle
+ml_pipeline/artifacts/*.joblib
+ml_pipeline/artifacts/*.pkl
+
+# Testing & Coverage Caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Python Build & Distribution
+build/
+dist/
+*.egg-info/
+
+# Flutter / Dart Web & App Build Artifacts
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+frontend/.pub-cache/
+frontend/.pub/
+
+# Operating System Files (macOS, Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs & Editor Swaps
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Internal Planning, Study Syllabus & Interview Prep Notes
+docs/
+
