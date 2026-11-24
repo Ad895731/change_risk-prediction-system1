@@ -78,6 +78,11 @@ This system is benchmarked on **ApacheJIT** ([arXiv:2203.00101](https://arxiv.or
 ## 📁 Repository Structure
 
 ```
+├── docs/                        # Core system architecture & data specifications
+│   ├── architecture.md          # Database schema, API contracts & system diagrams
+│   ├── data_plan.md             # Kamei feature dictionary & time-split rationale
+│   ├── workflow.md              # 28-day roadmap, git branching & experiment logging
+│   └── risks.md                 # Failure mode analysis & mitigation matrix
 ├── data/
 │   ├── apachejit/               # Benchmark dataset ingestion scripts
 │   ├── runbooks/                # Markdown operational runbooks & incident post-mortems
@@ -91,6 +96,16 @@ This system is benchmarked on **ApacheJIT** ([arXiv:2203.00101](https://arxiv.or
 
 ---
 
+## 📖 Technical Documentation
+
+Detailed engineering blueprints and specifications are maintained in the `/docs` directory:
+- [**System Architecture & Database Schemas (`docs/architecture.md`)**](docs/architecture.md)
+- [**Data Plan, Features & Leakage Prevention (`docs/data_plan.md`)**](docs/data_plan.md)
+- [**Development Workflow & Logging Guide (`docs/workflow.md`)**](docs/workflow.md)
+- [**Risk Assessment & Failure Modes Matrix (`docs/risks.md`)**](docs/risks.md)
+
+---
+
 ## 🚀 Quickstart
 
 ### Prerequisites
@@ -101,8 +116,8 @@ This system is benchmarked on **ApacheJIT** ([arXiv:2203.00101](https://arxiv.or
 ### Backend Setup
 ```bash
 # 1. Clone repository
-git clone https://github.com/Ad895731/change-risk-prediction-system.git
-cd change-risk-prediction-system
+git clone https://github.com/Ad895731/change_risk-prediction-system1.git
+cd change_risk-prediction-system1
 
 # 2. Setup Python environment
 python3 -m venv venv
